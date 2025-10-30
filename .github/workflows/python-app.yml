@@ -39,7 +39,6 @@ jobs:
 
       - name: Run behave tests
         run: |
-          cd note_service_tests
           behave
 
       - name: Lint with flake8 (optional)
